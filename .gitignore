@@ -1,0 +1,30 @@
+# Python Cache & Temporary Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+Saved_model/summarization_model.zip
+# Environment Variables & Keys (Secrets)
+.env
+.env.local
+
+# IDEs & Editors settings
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Large Model Weights (لو بتنزلي الأوزان محلياً ومش عايزة ترفعيها)
+*.bin
+*.safetensors
+*.pt
+*.pth
